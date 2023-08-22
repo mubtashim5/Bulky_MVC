@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb", "BulkyWeb\BulkyW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWebRazor", "BulkyWebRazor\BulkyWebRazor.csproj", "{61A2CD93-37A3-4E74-89C5-BCD3AB0C3113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.DataAccess", "Bulky.DataAccess\Bulky.DataAccess.csproj", "{1FBE2433-B827-47FE-838B-3F6B8C41EBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb.DataAccess", "Bulky.DataAccess\BulkyWeb.DataAccess.csproj", "{1FBE2433-B827-47FE-838B-3F6B8C41EBD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Models", "Bulky.Models\Bulky.Models.csproj", "{69F7B7CD-C933-4D59-AD0C-7C819F5413D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb.Models", "Bulky.Models\BulkyWeb.Models.csproj", "{69F7B7CD-C933-4D59-AD0C-7C819F5413D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Utilites", "Bulky.Utilites\Bulky.Utilites.csproj", "{078ABD33-E1D8-49B2-865A-9BE27CBEE444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb.Utilites", "Bulky.Utilites\BulkyWeb.Utilites.csproj", "{078ABD33-E1D8-49B2-865A-9BE27CBEE444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

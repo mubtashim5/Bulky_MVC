@@ -3,7 +3,7 @@ using BulkyWebRazor.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BulkyWebRazor.Pages.Categories
+namespace BulkyWebWebRazor.Pages.Categories
 {
 	[BindProperties]
     public class EditModel : PageModel
