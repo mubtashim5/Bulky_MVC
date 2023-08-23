@@ -10,12 +10,14 @@ namespace BulkyWeb.DataAccess.Repository
 {
 	public class UnitOfWork : IUnitOfWork
 	{
-		private ApplicationDbContext applicationDbContext;
+		private readonly ApplicationDbContext applicationDbContext;
 		public ICategoryRepository categoryRepository { get; private set; }
+		public IProductRepository productRepository { get; private set; }
 		public UnitOfWork(ApplicationDbContext applicationDbContext)
 		{
 			this.applicationDbContext = applicationDbContext;
 			categoryRepository = new CategoryRepository(applicationDbContext);
+			productRepository = new ProductRepository(applicationDbContext);
 		}
 		
 		public void Save()

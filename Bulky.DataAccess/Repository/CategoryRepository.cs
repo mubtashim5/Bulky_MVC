@@ -13,7 +13,7 @@ namespace BulkyWeb.DataAccess.Repository
 {
 	public class CategoryRepository : Repository<Category>, ICategoryRepository
 	{
-		private ApplicationDbContext applicationDbContext;
+		private readonly ApplicationDbContext applicationDbContext;
 		public CategoryRepository(ApplicationDbContext applicationDbContext) : base(applicationDbContext)
 		{
 			this.applicationDbContext = applicationDbContext;

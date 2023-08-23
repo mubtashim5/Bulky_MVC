@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BulkyWeb.Models.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace BulkyWeb.DataAccess.Repository.IRepository
 {
-	public interface IUnitOfWork
+	public interface IProductRepository : IRepository<Product>
 	{
-		ICategoryRepository categoryRepository { get; }
-		IProductRepository productRepository { get; }
-		void Save();
+		void Update(Product product) { }
 	}
 }
